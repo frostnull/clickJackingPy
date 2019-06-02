@@ -1,10 +1,12 @@
 # clickJackingPy
 clickJackingPy is a way to automate and test whether a domain is vulnerable to an attack category called "ClickJacking" for more information here https://www.geeksforgeeks.org/clickjacking-ui-redressing/.
 
-### Install / from PEPL
+### Install / from REPL
 ```
 git clone https://github.com/frostnull/clickJackingPy/.git
+cd clickJacking
 $ pip install .
+$ python3
 >>> import ClickJacking
 >>> t = ClickJacking()
 >>> t.verifyDomain('https://example.com') #if want use cookies pass a dict cookies like {"foo":"bar"}
